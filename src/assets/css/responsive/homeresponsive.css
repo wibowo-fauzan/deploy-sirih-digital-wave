@@ -24,11 +24,11 @@
 }
 
 @media only screen and (max-width: 576px) {
-    /* .space0-responsive {
+    .space0-responsive {
         margin-top: 70px;
         margin-bottom: 60px;
         padding: 30px;
-    } */
+    }
 }
 
 @media only screen and (max-width: 490px) {
