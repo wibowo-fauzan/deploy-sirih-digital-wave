@@ -34,7 +34,7 @@
 @media only screen and (max-width: 490px) {
     .space0-responsive {
         margin-top: 70px;
-        /* margin-bottom: 60px; */
+        margin-bottom: 50px;
     }
     .width0-text-responsive {
         width: 230px;
