@@ -24,12 +24,10 @@ return (
 
   <section>
     <div className="container-fluid mt-lg-4 space0-responsive">
-      <div className="row">
-        <div className="row justify-content-center text-center my-sm-5">
-          <div className="col-lg-6">
-            <h2 className="text-dark">Kamu Butuh Website?</h2>
-            <p className="lead width0-text-responsive">Dalam Pembuatan Website Pilih Yang Tepat Dan Terpercaya...</p>
-          </div>
+      <div className="row justify-content-center text-center my-sm-5">
+        <div className="col-lg-6">
+          <h2 className="text-dark">Kamu Butuh Website?</h2>
+          <p className="lead">Dalam Pembuatan Website Pilih Yang Tepat Dan Terpercaya...</p>
         </div>
       </div>
     </div>

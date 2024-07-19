@@ -1,32 +1,62 @@
-@media only screen and (min-width: 412px) {
-    /*  */
+/* Media Queries untuk ukuran layar yang berbeda */
+@media only screen and (max-width: 1200px) {
     .space0-responsive {
         margin-top: 70px;
         margin-bottom: 60px;
         padding: 30px;
-    }
-    .width0-text-responsive {
-        width: 330px;
-    }
-    .space1-responsive {
-        margin-top: 25px;
     }
 }
-@media only screen and (min-width: 490px) {
-    /*  */
+
+@media only screen and (max-width: 992px) {
+    .space0-responsive {
+        margin-top: 70px;
+        margin-bottom: 60px;
+        padding: 30px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .space0-responsive {
+        margin-top: 70px;
+        margin-bottom: 60px;
+        padding: 30px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .space0-responsive {
+        margin-top: 70px;
+        margin-bottom: 60px;
+        padding: 30px;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    .width0-text-responsive {
+        width: 280px; /* Sesuaikan lebar untuk perangkat ini */
+    }
+    .text0-responsive {
+        font-size: 18px; /* Sesuaikan ukuran font */
+    }
+    .space0-responsive {
+        margin-top: 50px; /* Sesuaikan margin untuk perangkat ini */
+        margin-bottom: 40px;
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width: 490px) {
     .space0-responsive {
         margin-top: 70px;
         margin-bottom: 60px;
         padding: 30px;
     }
     .width0-text-responsive {
-        width: 330px;
+        width: 230px;
     }
     .space1-responsive {
         margin-top: 25px;
     }
-
-    /*  */
     .pding0-responsive {
         padding: 20px;
     }
@@ -36,16 +66,13 @@
     .text0-responsive {
         font-size: 20px;
     }
-    
     .top0-responsve {
-        margin-bottom: 160px!important;
+        margin-bottom: 160px !important;
         height: 250px;
     }
     .top-card0-responsve {
         margin-top: 100px;
     }
-    
-    /*  */
     .cnter0-image-responsve {
         margin: 0;
         justify-content: center;
