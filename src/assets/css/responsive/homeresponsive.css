@@ -1,3 +1,17 @@
+@media only screen and (max-width: 412px) {
+    /*  */
+    .space0-responsive {
+        margin-top: 70px;
+        margin-bottom: 60px;
+        padding: 30px;
+    }
+    .width0-text-responsive {
+        width: 330px;
+    }
+    .space1-responsive {
+        margin-top: 25px;
+    }
+}
 @media only screen and (max-width: 490px) {
     /*  */
     .space0-responsive {
