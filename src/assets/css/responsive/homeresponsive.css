@@ -1,10 +1,10 @@
 /* Media Queries untuk ukuran layar yang berbeda */
 @media only screen and (max-width: 1200px) {
-    .space0-responsive {
+    /* .space0-responsive {
         margin-top: 70px;
         margin-bottom: 60px;
         padding: 30px;
-    }
+    } */
 }
 
 @media only screen and (max-width: 992px) {
@@ -29,10 +29,6 @@
         margin-bottom: 60px;
         padding: 30px;
     }
-}
-
-@media only screen and (max-width: 1080px) {
-   
 }
 
 @media only screen and (max-width: 490px) {
