@@ -32,17 +32,7 @@
 }
 
 @media only screen and (max-width: 1080px) {
-    .width0-text-responsive {
-        width: 280px; /* Sesuaikan lebar untuk perangkat ini */
-    }
-    .text0-responsive {
-        font-size: 18px; /* Sesuaikan ukuran font */
-    }
-    .space0-responsive {
-        margin-top: 50px; /* Sesuaikan margin untuk perangkat ini */
-        margin-bottom: 40px;
-        padding: 20px;
-    }
+   
 }
 
 @media only screen and (max-width: 490px) {
