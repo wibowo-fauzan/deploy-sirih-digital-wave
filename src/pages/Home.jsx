@@ -1,11 +1,5 @@
 import React from 'react';
-import '../assets/css/sirih-digital-wave-design-system.css';
-import '../assets/css/sirih-digital-wave-design-system.css.map';
-import '../assets/css/sirih-digital-wave-design-system.min.css';
-import '../assets/css/sirih-digital-wave-icons.css';
-import '../assets/css/sirih-digital-wave-svg.css';
-import '../assets/js/soft-design-system';
-import '../assets/css/responsive/homeresponsive.css'
+import { Link } from 'react-router-dom';
 import NavBar from '../components/Nav';
 import Header from '../components/Header';
 import Iconshiping from '../components/SVG/Iconshiping';
@@ -23,8 +17,8 @@ return (
   <Header />
 
   <section>
-    <div className="container-fluid mt-lg-4 space0-responsive">
-      <div className="row justify-content-center text-center my-sm-5">
+    <div className="container-fluid mt-lg-4 text-center">
+      <div className="row justify-content-center my-sm-5 space0-responsive">
         <div className="col-lg-6">
           <h2 className="text-dark">Kamu Butuh Website?</h2>
           <p className="lead">Dalam Pembuatan Website Pilih Yang Tepat Dan Terpercaya...</p>
@@ -139,7 +133,7 @@ return (
 
   <section className="py-3 mb-5 mt-5">
     <div className="bg-gradient-primary position-relative m-3 border-radius-xl top0-responsve">
-      <div className="container pb-lg-9 pb-10 pt-7 position-relative z-index-2">
+      <div className="container pb-lg-9 pb-10 pt-7 position-relative z-index-2 ">
         <div className="row">
           <div className="col-md-6 mx-auto text-center">
             <h3 className="text-white">Lihat harga kami</h3>
@@ -148,14 +142,14 @@ return (
         </div>
       </div>
     </div>
-    <div className="mt-n8">
+    <div className="mt-n8 margin-price-responsive-space">
       <div className="container">
         <div className="tab-content tab-space">
           <div className="tab-pane active" id="monthly">
             <div className="row top-card0-responsve">
 
               <div className="col-lg-4 mb-lg-0 mb-4">
-                <div className="card shadow-lg">
+                <div className="card shadow-lg card-no-border-responsive">
                   <div className="text-center pt-4 pb-3">
                     <span className="badge rounded-pill bg-light text-dark">Basic Plan</span>
                     <h1 className="font-weight-bold mt-2">
@@ -218,16 +212,15 @@ return (
                       </div>
                     </div>
 
-                    <a href="javascript:;" className="btn btn-icon bg-gradient-primary d-lg-block mt-3 mb-0">
-                      Buy
-                      <i className="fas fa-arrow-right ms-1"></i>
-                    </a>
+                    <Link to="/Beli/Basicplan" className="btn btn-icon bg-gradient-primary d-lg-block mt-3 mb-0">
+                      Beli Sekarang
+                    </Link>
                   </div>
                 </div>
               </div>
 
               <div className="col-lg-4 mb-lg-0 mb-4">
-                <div className="card shadow-lg">
+                <div className="card shadow-lg card-no-border-responsive">
                   <div className="text-center pt-4 pb-3">
                     <span className="badge rounded-pill bg-light text-dark">PREMIUM</span>
                     <h1 className="font-weight-bold mt-2">
@@ -299,16 +292,15 @@ return (
                       </div>
                     </div>
 
-                    <a href="javascript:;" className="btn btn-icon bg-gradient-primary d-lg-block mt-3 mb-0">
-                      Buy
-                      <i className="fas fa-arrow-right ms-1"></i>
-                    </a>
+                    <Link to="/Beli/Premium" className="btn btn-icon bg-gradient-primary d-lg-block mt-3 mb-0">
+                      Beli Sekarang
+                    </Link>
                   </div>
                 </div>
               </div>
 
               <div className="col-lg-4 mb-lg-0 mb-4">
-                <div className="card shadow-lg">
+                <div className="card shadow-lg card-no-border-responsive">
                   <div className="text-center pt-4 pb-3">
                     <span className="badge rounded-pill bg-light text-dark">HOT OFFER</span>
                     <h1 className="font-weight-bold mt-2">
@@ -398,241 +390,12 @@ return (
                       </div>
                     </div>
 
-                    <a href="javascript:;" className="btn btn-icon bg-gradient-primary d-lg-block mt-3 mb-0">
-                      Buy
-                      <i className="fas fa-arrow-right ms-1"></i>
-                    </a>
+                    <Link to="/Beli/Hotoffer" className="btn btn-icon bg-gradient-primary d-lg-block mt-3 mb-0">
+                      Beli Sekarang
+                    </Link>
                   </div>
                 </div>
               </div>
-
-            </div>
-          </div>
-          <div className="tab-pane" id="annual">
-            <div className="row">
-              <div className="col-lg-4 mb-lg-0 mb-4">
-                <div className="card">
-                  <div className="card-header text-center pt-4 pb-3">
-                    <span className="badge rounded-pill bg-light text-dark">Starter</span>
-                    <h1 className="font-weight-bold mt-2">
-                      <small>RP.</small>2.xxx.xxx
-                    </h1>
-                  </div>
-                  <div className="card-body text-lg-start text-center pt-0">
-
-                    <div className="d-flex justify-content-lg-start justify-content-center p-2">
-                      <div className="icon icon-shape icon-xs rounded-circle bg-gradient-success shadow text-center">
-                        <i className="fas fa-check opacity-10"></i>
-                      </div>
-                      <div>
-                        <span className="ps-3">2 team members</span>
-                      </div>
-                    </div>
-
-                    <div className="d-flex justify-content-lg-start justify-content-center p-2">
-                      <div className="icon icon-shape icon-xs rounded-circle bg-gradient-success shadow text-center">
-                        <i className="fas fa-check opacity-10"></i>
-                      </div>
-                      <div>
-                        <span className="ps-3">2 team members</span>
-                      </div>
-                    </div>
-
-                    <div className="d-flex justify-content-lg-start justify-content-center p-2">
-                      <div className="icon icon-shape icon-xs rounded-circle bg-gradient-success shadow text-center">
-                        <i className="fas fa-check opacity-10"></i>
-                      </div>
-                      <div>
-                        <span className="ps-3">20GB Cloud storage</span>
-                      </div>
-                    </div>
-
-                    <div className="d-flex justify-content-lg-start justify-content-center p-2">
-                      <div className="icon icon-shape icon-xs rounded-circle bg-gradient-secondary shadow text-center">
-                        <i className="fas fa-minus"></i>
-                      </div>
-                      <div>
-                        <span className="ps-3">Integration help</span>
-                      </div>
-                    </div>
-
-                    <div className="d-flex justify-content-lg-start justify-content-center p-2">
-                      <div className="icon icon-shape icon-xs rounded-circle bg-gradient-secondary shadow text-center">
-                        <i className="fas fa-minus"></i>
-                      </div>
-                      <div>
-                        <span className="ps-3">Sketch Files</span>
-                      </div>
-                    </div>
-
-                    <div className="d-flex justify-content-lg-start justify-content-center p-2">
-                      <div className="icon icon-shape icon-xs rounded-circle bg-gradient-secondary shadow text-center">
-                        <i className="fas fa-minus"></i>
-                      </div>
-                      <div>
-                        <span className="ps-3">API Access</span>
-                      </div>
-                    </div>
-
-                    <div className="d-flex justify-content-lg-start justify-content-center p-2">
-                      <div className="icon icon-shape icon-xs rounded-circle bg-gradient-secondary shadow text-center">
-                        <i className="fas fa-minus"></i>
-                      </div>
-                      <div>
-                        <span className="ps-3">Complete documentation</span>
-                      </div>
-                    </div>
-
-                    <a href="javascript:;" className="btn btn-icon bg-gradient-dark d-lg-block mt-3 mb-0">
-                      Join
-                      <i className="fas fa-arrow-right ms-1"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-lg-4 mb-lg-0 mb-4">
-                <div className="card">
-                  <div className="card-header text-center pt-4 pb-3">
-                    <span className="badge rounded-pill bg-light text-dark">Premium</span>
-                    <h1 className="font-weight-bold mt-2">
-                      <small>$</small>159
-                    </h1>
-                  </div>
-                  <div className="card-body text-lg-start text-center pt-0">
-                    <div className="d-flex justify-content-lg-start justify-content-center p-2">
-                      <div className="icon icon-shape icon-xs rounded-circle bg-gradient-success shadow text-center">
-                        <i className="fas fa-check opacity-10"></i>
-                      </div>
-                      <div>
-                        <span className="ps-3">10 team members</span>
-                      </div>
-                    </div>
-
-                    <div className="d-flex justify-content-lg-start justify-content-center p-2">
-                      <div className="icon icon-shape icon-xs rounded-circle bg-gradient-success shadow text-center">
-                        <i className="fas fa-check opacity-10"></i>
-                      </div>
-                      <div>
-                        <span className="ps-3">40GB Cloud storage</span>
-                      </div>
-                    </div>
-
-                    <div className="d-flex justify-content-lg-start justify-content-center p-2">
-                      <div className="icon icon-shape icon-xs rounded-circle bg-gradient-success shadow text-center">
-                        <i className="fas fa-check opacity-10"></i>
-                      </div>
-                      <div>
-                        <span className="ps-3">Integration help</span>
-                      </div>
-                    </div>
-
-                    <div className="d-flex justify-content-lg-start justify-content-center p-2">
-                      <div className="icon icon-shape icon-xs rounded-circle bg-gradient-success shadow text-center">
-                        <i className="fas fa-check opacity-10"></i>
-                      </div>
-                      <div>
-                        <span className="ps-3">Sketch Files</span>
-                      </div>
-                    </div>
-
-                    <div className="d-flex justify-content-lg-start justify-content-center p-2">
-                      <div className="icon icon-shape icon-xs rounded-circle bg-gradient-secondary shadow text-center">
-                        <i className="fas fa-minus"></i>
-                      </div>
-                      <div>
-                        <span className="ps-3">API Access</span>
-                      </div>
-                    </div>
-
-                    <div className="d-flex justify-content-lg-start justify-content-center p-2">
-                      <div className="icon icon-shape icon-xs rounded-circle bg-gradient-secondary shadow text-center">
-                        <i className="fas fa-minus"></i>
-                      </div>
-                      <div>
-                        <span className="ps-3">Complete documentation</span>
-                      </div>
-                    </div>
-
-                    <a href="javascript:;" className="btn btn-icon bg-gradient-primary d-lg-block mt-3 mb-0">
-                      Try Premium
-                      <i className="fas fa-arrow-right ms-1"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-lg-4 mb-lg-0 mb-4">
-                <div className="card">
-                  <div className="card-header text-center pt-4 pb-3">
-                    <span className="badge rounded-pill bg-light text-dark">Enterprise</span>
-                    <h1 className="font-weight-bold mt-2">
-                      <small>$</small>399
-                    </h1>
-                  </div>
-                  <div className="card-body text-lg-start text-center pt-0">
-                    <div className="d-flex justify-content-lg-start justify-content-center p-2">
-                      <div className="icon icon-shape icon-xs rounded-circle bg-gradient-success shadow text-center">
-                        <i className="fas fa-check opacity-10"></i>
-                      </div>
-                      <div>
-                        <span className="ps-3">Unlimited team members</span>
-                      </div>
-                    </div>
-
-                    <div className="d-flex justify-content-lg-start justify-content-center p-2">
-                      <div className="icon icon-shape icon-xs rounded-circle bg-gradient-success shadow text-center">
-                        <i className="fas fa-check opacity-10"></i>
-                      </div>
-                      <div>
-                        <span className="ps-3">100GB Cloud storage</span>
-                      </div>
-                    </div>
-
-                    <div className="d-flex justify-content-lg-start justify-content-center p-2">
-                      <div className="icon icon-shape icon-xs rounded-circle bg-gradient-success shadow text-center">
-                        <i className="fas fa-check opacity-10"></i>
-                      </div>
-                      <div>
-                        <span className="ps-3">Integration help</span>
-                      </div>
-                    </div>
-
-                    <div className="d-flex justify-content-lg-start justify-content-center p-2">
-                      <div className="icon icon-shape icon-xs rounded-circle bg-gradient-success shadow text-center">
-                        <i className="fas fa-check opacity-10"></i>
-                      </div>
-                      <div>
-                        <span className="ps-3">Sketch Files</span>
-                      </div>
-                    </div>
-
-                    <div className="d-flex justify-content-lg-start justify-content-center p-2">
-                      <div className="icon icon-shape icon-xs rounded-circle bg-gradient-success shadow text-center">
-                        <i className="fas fa-check opacity-10"></i>
-                      </div>
-                      <div>
-                        <span className="ps-3">API Access</span>
-                      </div>
-                    </div>
-
-                    <div className="d-flex justify-content-lg-start justify-content-center p-2">
-                      <div className="icon icon-shape icon-xs rounded-circle bg-gradient-success shadow text-center">
-                        <i className="fas fa-check opacity-10"></i>
-                      </div>
-                      <div>
-                        <span className="ps-3">Complete documentation</span>
-                      </div>
-                    </div>
-
-                    <a href="javascript:;" className="btn btn-icon bg-gradient-success d-lg-block mt-3 mb-0">
-                      Join
-                      <i className="fas fa-arrow-right ms-1"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-
             </div>
           </div>
         </div>

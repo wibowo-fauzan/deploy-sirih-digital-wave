@@ -1,3 +1,8 @@
+/*  */
+.space-responsive-basicplan {
+    margin-top: 80px;
+}
+
 /* Media Queries untuk ukuran layar yang berbeda */
 @media only screen and (max-width: 1200px) {
     /* .space0-responsive {
@@ -16,18 +21,49 @@
 }
 
 @media only screen and (max-width: 768px) {
-    .space0-responsive {
+    /* .space0-responsive {
         margin-top: 70px;
         margin-bottom: 60px;
         padding: 30px;
-    }
+    } */
 }
 
 @media only screen and (max-width: 576px) {
+    /* device a51 header */
     .space0-responsive {
-        margin-top: 70px;
-        margin-bottom: 60px;
-        padding: 30px;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }    
+    /* space built by developers */
+    .pding0-responsive {
+        padding: 20px;
+    }
+    .space1-responsive {
+        margin-top: 25px;
+    }
+    /* space lihat harga kami */
+    .top0-responsve {
+        height: 260px;
+    }
+    /*  */
+    .margin-price-responsive-space {
+        padding-top: 140px!important;
+    }
+    /* none border */
+    .card-no-border-responsive {
+        border: none;
+    }
+    /*  */
+    .space2-responsive-footer {
+        padding-bottom: 25px;
+    }
+    /*  */
+    .space-responsive-basicplan {
+        padding-top: 30px;
     }
 }
 
@@ -53,7 +89,7 @@
         font-size: 20px;
     }
     .top0-responsve {
-        margin-bottom: 160px !important;
+        margin-top: 120px;
         height: 250px;
     }
     .top-card0-responsve {

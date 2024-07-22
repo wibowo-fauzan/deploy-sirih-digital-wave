@@ -75,9 +75,9 @@ const Nav = () => {
                                                 Landing Pages
                                             </div>
 
-                                            <a to="/about" className="dropdown-item border-radius-md">
+                                            <Link to="/about" className="dropdown-item border-radius-md">
                                                 <span className="ps-3">About Us</span>
-                                            </a>
+                                            </Link>
                                             <a href="./pages/contact-us.html" className="dropdown-item border-radius-md">
                                                 <span className="ps-3">Contact Us</span>
                                             </a>
