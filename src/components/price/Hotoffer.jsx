@@ -126,7 +126,7 @@ return(
                                     <h1 className="mt-0">
                                         <small>Rp.</small>4.000.000
                                     </h1>
-                                    <a href="https://wa.me/6283157346828?text=*BASIC%20PLAN*%0A%0A-%20DOMAIN%20WEBSITE%20%2F%20TAHUN%0A-%20HOSTING%20WEBSITE%20%2F%20BULAN%0AWEBSITE%20PEMBANGUNAN%20SATU%20BULAN%0A-%20REQUEST%20HALAMAN%20LANDING%20SATU%20HALAMAN%0A-%20RESPONSIVE%20WEBSITE%0A-%20SOCIAL%20MEDIA%20LINK%0A%0A*SAYA%20MINTA%20SAMPLE%20WEBSITE*" type="button" className="btn bg-gradient-info btn-lg mt-4" > Get Access </a>
+                                    <a href="https://wa.me/6283157346828?text=*BASIC%20PLAN*%0A%0A-%20DOMAIN%20WEBSITE%20%2F%20TAHUN%0A-%20HOSTING%20WEBSITE%20%2F%20BULAN%0A-%20PEMBANGUNAN%20WEBSITE%20SATU%20BULAN%0A-%20REQUEST%20HALAMAN%20LANDING%20SATU%20HALAMAN%0A-%20RESPONSIVE%20WEBSITE%0A-%20SOCIAL%20MEDIA%20LINK%0A-%20REQUEST%20PAGE%20BLOGGER%20%2F%20E-COMMERCE%0A-%20REQUEST%20ROLE%20ACCOUNT%0A-%20REQUEST%20API%0A*SAYA%20MINTA%20SAMPLE%20WEBSITE*"  type="button"  className="btn bg-gradient-info btn-lg mt-4"  target="_blank"  rel="noopener noreferrer"> Get Acces </a>
                                     <p className="text-sm">Dapatkan sampel gratis</p>
                                 </div>
                             </div>
